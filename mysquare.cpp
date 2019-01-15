@@ -8,6 +8,8 @@ MySquare::MySquare()
 
 void MySquare::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
+    Q_UNUSED(option);
+    Q_UNUSED(widget);
     QRectF rec = boundingRect();
     QBrush brush = QBrush(nullptr);
 
